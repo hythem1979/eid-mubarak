@@ -48,6 +48,11 @@ body {
     text-align: center;
 }
 
+.ar-message p,
+.en-message p {
+    font-size: large;
+}
+
 .name {
     font-size: xx-large;
     margin: 20px 0;
