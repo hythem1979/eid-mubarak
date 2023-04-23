@@ -48,9 +48,37 @@ body {
     text-align: center;
 }
 
+.ar-message,
+.en-message {
+    color: #3b3b3b;
+    animation: color-change 8s infinite;
+}
+
 .ar-message p,
 .en-message p {
     font-size: large;
+}
+
+@keyframes color-change {
+    0% {
+        color: #3b3b3b;
+    }
+
+    25% {
+        color: #2980b9;
+    }
+
+    50% {
+        color: #8e44ad;
+    }
+
+    75% {
+        color: #c0392b;
+    }
+
+    100% {
+        color: #3b3b3b;
+    }
 }
 
 .name {
